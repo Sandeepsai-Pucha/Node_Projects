@@ -1,0 +1,36 @@
+{
+   "name": "restful-typeorm",
+   "version": "1.0.0",
+   "description": "\"Project With TypeOrm\"",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon --exec ts-node src/index.ts",
+      "typeorm": "typeorm-ts-node-commonjs"
+   },
+   "author": "\"Sandeep\"",
+   "license": "ISC",
+   "devDependencies": {
+      "@types/bcryptjs": "^2.4.6",
+      "@types/express": "^4.17.21",
+      "@types/jsonwebtoken": "^9.0.6",
+      "@types/memory-cache": "^0.2.5",
+      "@types/node": "^16.11.10",
+      "concurrently": "^8.2.2",
+      "serverless-offline": "^13.5.0",
+      "ts-node": "^10.9.2",
+      "typescript": "4.5.2"
+   },
+   "dependencies": {
+      "apollo-server-express": "^3.13.0",
+      "class-validator": "^0.14.1",
+      "express": "^4.19.2",
+      "graphql": "^15.8.0",
+      "mysql2": "^3.9.6",
+      "nodemon": "^3.1.0",
+      "reflect-metadata": "^0.1.13",
+      "type-graphql": "^1.1.1",
+      "typedi": "^0.10.0",
+      "typeorm": "0.3.20"
+   }
+}

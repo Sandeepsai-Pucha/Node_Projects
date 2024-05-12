@@ -1,0 +1,17 @@
+{
+  "name": "authentication-authorization",
+  "version": "1.0.0",
+  "description": "\"AuthN-and-AuthZ\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "jwt",
+    "auth"
+  ],
+  "author": "\"Sandeep\"",
+  "license": "ISC"
+}
